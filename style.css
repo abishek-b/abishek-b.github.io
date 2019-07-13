@@ -2,6 +2,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   background: rgba(242, 242, 242, .6);
   margin: 0;
+  height: 100vh;
 }
 
 * {
@@ -10,14 +11,16 @@ body {
 
 /*NAVBAR*/
 .navbar {
-  background-color: #31b0d5;
+  background-color: #00000000;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
   display: flex;
   justify-content: center;
 }
-
+.navbar-bg-fixed{
+  background-color: #065dd5;
+}
 .navbar a {
   font-weight: 200;
   color: white;
@@ -37,7 +40,7 @@ body {
   height: 100vh; /*height to 100% of view height*/
   background: #31b0d5; /*background color to blue*/
   margin-bottom: 0; /*no bottom margin*/
-
+  background-image: url(./assests/images/banner-background.jpg);
   display: flex;
   flex-direction: column;
 }
@@ -48,7 +51,7 @@ body {
   font-size: 2em;
   color: white;
   text-align: center;
-  padding-top: 150px;
+  padding-top: 5px;
 }
 
 .jumbotron-text h1 {
@@ -137,7 +140,7 @@ body {
 h2 {
   font-weight: 200;
   font-size: 2rem;
-  color: #31b0d5;
+  color: #065dd5;
   text-transform: uppercase;
   text-align: center;
 }
@@ -221,7 +224,7 @@ h4 {
   margin: 7px;
   padding: 5px 10px;
   color: white;
-  background: #31b0d5;
+  background: #065dd5;
   list-style: none;
   cursor: default;
   font-size: 1.2em;
