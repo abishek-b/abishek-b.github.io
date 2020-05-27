@@ -43,6 +43,7 @@ body {
   background-image: url(./assests/images/banner-background.jpg);
   display: flex;
   flex-direction: column;
+  background-size : cover;
 }
 
 .jumbotron-text {
