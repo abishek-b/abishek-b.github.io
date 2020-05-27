@@ -44,6 +44,7 @@ body {
   display: flex;
   flex-direction: column;
   background-size : cover;
+  justify-content : center;
 }
 
 .jumbotron-text {
@@ -86,11 +87,14 @@ body {
 
 /*ARROW LINK*/
 #down-arrow {
-  /*position: absolute;
-  width: 100%;*/
-  margin-top: auto;
+  position: absolute;
+/*   width: 100%;*/ 
+  bottom : 50px;
+  right : 0;
+  left : 0;
+/*   margin-top: auto; */
   text-align: center;
-  margin-bottom: 50px;
+/*   margin-bottom: 50px; */
 }
 
 #down-arrow a {
