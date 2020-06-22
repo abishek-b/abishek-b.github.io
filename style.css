@@ -40,7 +40,7 @@ body {
   height: 100vh; /*height to 100% of view height*/
   background: #31b0d5; /*background color to blue*/
   margin-bottom: 0; /*no bottom margin*/
-  background-image: url(./assests/images/banner-background.jpg);
+  background-image: url(./assets/images/banner-background.jpg);
   display: flex;
   flex-direction: column;
   background-size : cover;
