@@ -392,11 +392,7 @@ color: #7cf5dc;
 	width: 100%;
 }
 
-@media (max-width: 600px) {
-	.project_wrapper {
-		flex-direction: column;
-	}
-}
+
 
 .project .project_card {
 	flex: 1;
@@ -404,6 +400,18 @@ color: #7cf5dc;
 	max-height: 300px;
 	padding: 1em;
 	overflow: hidden;
+}
+
+@media (max-width: 600px) {
+	.project_wrapper {
+		flex-direction: column;
+	}
+
+	.project .project_card {
+		max-height: 200px;
+		max-width: 275px;
+		margin: 0 auto;
+	}
 }
 
 .project .project_card .overlay .layer {
