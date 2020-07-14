@@ -176,6 +176,8 @@ textarea.form-element {
 
 	.about .pic_container{
 		width: 50%;
+		flex: none;
+		margin-top: 5em;
 	}
 	
 }
@@ -203,6 +205,9 @@ textarea.form-element {
 @media (max-width: 600px) {
 	.career_wrapper{
 		flex-direction: column;
+	}
+	.career .career_path{
+		margin-top: 2em;
 	}
 }
 .career .career_card {
@@ -327,7 +332,7 @@ textarea.form-element {
 }
 
 @media (max-width: 600px) {
-	.contact_wrapper .contact_form .h1{
+	.contact_wrapper .contact_form h1{
 		text-align: center;
 	}
 	.contact_wrapper .contact_form .form-element{
@@ -372,6 +377,11 @@ textarea.form-element {
 	justify-content: space-between;
 }
 
+@media (max-width: 600px) {
+	.footer .follow_social {
+		width: 100%;
+	}
+}
 .footer .follow_social a {
 	text-decoration: none;
 }
