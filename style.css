@@ -188,6 +188,8 @@ textarea.form-element {
 	padding: 2em;
 }
 
+
+
 .career h1 {
 	color: #fff;
 	font-size: 2em;
@@ -198,6 +200,11 @@ textarea.form-element {
 	width: 100%;
 }
 
+@media (max-width: 600px) {
+	.career_wrapper{
+		flex-direction: column;
+	}
+}
 .career .career_card {
 	flex: 1;
 	height: 100%;
@@ -216,6 +223,12 @@ textarea.form-element {
 	padding: 5em;
 }
 
+@media (max-width: 600px) {
+	.skills{
+		padding: 1em;
+	}
+}
+
 /* Project Section */
 
 .project {
@@ -232,6 +245,12 @@ textarea.form-element {
 .project .project_wrapper {
 	display: flex;
 	width: 100%;
+}
+
+@media (max-width: 600px) {
+	.project_wrapper{
+		flex-direction: column;
+	}
 }
 
 .project .project_card {
@@ -291,6 +310,12 @@ textarea.form-element {
 	width: 100%;
 }
 
+@media (max-width: 600px) {
+	.contact_wrapper{
+		flex-direction: column;
+	}
+}
+
 .contact_wrapper .contact_card {
 	flex: 1;
 }
@@ -301,6 +326,18 @@ textarea.form-element {
 	justify-content: center;
 }
 
+@media (max-width: 600px) {
+	.contact_wrapper .contact_form .h1{
+		text-align: center;
+	}
+	.contact_wrapper .contact_form .form-element{
+		margin: 0 auto;
+	}
+	#btn_hire_me{
+		display: block;
+		margin: 0 auto;
+	}
+}
 .contact_wrapper .contact_vector img {
 	display: block;
 	margin: 0 auto;
