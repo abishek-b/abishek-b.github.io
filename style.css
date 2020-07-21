@@ -328,6 +328,11 @@ textarea.form-element {
 	}
 }
 
+@media (max-width: 350px) {
+	.about .text_container {
+		font-size: 0.8em;
+	}
+}
 /* Career Section */
 
 .career {
@@ -423,6 +428,13 @@ textarea.form-element {
 		max-width: 255px;
 	}
 }
+
+@media (max-width : 350px){
+	.project .project_card{
+		max-height: 150px;
+		max-width: 225px;
+	}
+}
 .project .project_card .overlay .layer {
 	background-color: #000;
 	position: absolute;
@@ -504,6 +516,11 @@ textarea.form-element {
 @media (max-width : 400px){
 	.contact_wrapper .contact_card img{
 		width: 60%;
+	}
+}
+@media (max-width : 350px){
+	.contact_wrapper .contact_form h1 {
+		font-size: 1em;
 	}
 }
 
