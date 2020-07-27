@@ -273,9 +273,14 @@ textarea.form-element {
 	color: white;
 	text-align: center;
 	padding-top: 5px;
-    white-space: nowrap;
-    overflow: hidden;
-    /* transform: translateY(-50%);    */
+	white-space: nowrap;
+	overflow: hidden;
+	/* transform: translateY(-50%);    */
+}
+
+.anim-typewriter {
+	animation: typewriter 1s steps(12) 1s 1 normal both, blinkTextCursor 500ms steps(44) infinite normal;
+	width: max-content;
 }
 
 .home p {
@@ -337,6 +342,7 @@ textarea.form-element {
 		font-size: 0.8em;
 	}
 }
+
 /* Career Section */
 
 .career {
@@ -425,20 +431,20 @@ textarea.form-element {
 	}
 }
 
-
-@media (max-width : 400px){
-	.project .project_card{
+@media (max-width: 400px) {
+	.project .project_card {
 		max-height: 180px;
 		max-width: 255px;
 	}
 }
 
-@media (max-width : 400px){
-	.project .project_card{
+@media (max-width: 400px) {
+	.project .project_card {
 		max-height: 150px;
 		max-width: 225px;
 	}
 }
+
 .project .project_card .overlay .layer {
 	background-color: #000;
 	position: absolute;
@@ -517,12 +523,13 @@ textarea.form-element {
 	}
 }
 
-@media (max-width : 400px){
-	.contact_wrapper .contact_card img{
+@media (max-width: 400px) {
+	.contact_wrapper .contact_card img {
 		width: 60%;
 	}
 }
-@media (max-width : 400px){
+
+@media (max-width: 400px) {
 	.contact_wrapper .contact_form h1 {
 		font-size: 1em;
 	}
@@ -583,21 +590,22 @@ textarea.form-element {
 	}
 }
 
-
-
-
-
-
 /* Animation */
-.anim-typewriter{
-	animation: typewriter 4s steps(44) 1s 1 normal both,
-			   blinkTextCursor 500ms steps(44) infinite normal;
-  }
-  @keyframes typewriter{
-	from{width: 0;}
-	to{width: 24em;}
-  }
-  @keyframes blinkTextCursor{
-	from{border-right-color: rgba(255,255,255,.75);}
-	to{border-right-color: transparent;}
-  }
+
+@keyframes typewriter {
+	from {
+		width: 0;
+	}
+	to {
+		width: 250px;
+	}
+}
+
+@keyframes blinkTextCursor {
+	from {
+		border-right-color: rgba(255, 255, 255, .75);
+	}
+	to {
+		border-right-color: transparent;
+	}
+}
